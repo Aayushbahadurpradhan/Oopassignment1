@@ -15,7 +15,13 @@ public class Division {
         System.out.println("The division"+division);
         double divi = sum/product;
         System.out.println("The divi"+divi);
-
+//        int a= 4;
+//        int b= 5;
+//        int s= a+b;
+//        int prod= a*b;
+//        double castedS = (double) (s);
+//        double castedprod = (double) (prod);
+//        double finalresult  = (double) (prod);
 
     }
 }
