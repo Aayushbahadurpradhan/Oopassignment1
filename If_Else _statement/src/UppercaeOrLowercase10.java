@@ -1,7 +1,7 @@
 /*10. Write a JAVA program to check whether a
  character is uppercase or lowercase alphabet.*/
 import java.util.Scanner;
-public class UppercaeOrLowercase {
+public class UppercaeOrLowercase10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter any character : ");

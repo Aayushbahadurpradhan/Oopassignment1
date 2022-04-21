@@ -1,7 +1,7 @@
 /*16. Write a JAVA program to check whether the triangle
 is equilateral, isosceles or scalene triangle.*/
 import java.util.Scanner;
-public class EquilateralIscscelesorScaleneTRiangle {
+public class EquilateralIscscelesorScaleneTRiangle16 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter first side:");

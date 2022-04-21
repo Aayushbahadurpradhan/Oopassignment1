@@ -1,13 +1,20 @@
 import java.util.Scanner;
 
-public class MonthNoToPrintDaysInThatMonth {
+public class MonthNoToPrintDaysInThatMonth12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter Month Number;");
         int MonthNumber= scanner.nextInt();
+        System.out.println("Enter year");
+        int year =scanner.nextInt();
         if(MonthNumber == 1) {
             System.out.println("January=31Days");
         } else if(MonthNumber == 2) {
+            if ((year%400==0 || year%4==0 && year%100!=0)) {
+                System.out.println("29 days");
+            }else {
+                System.out.println("28 days");
+            }
             System.out.println("February=28or29Days");
         } else if(MonthNumber== 3) {
             System.out.println("March=31Days");

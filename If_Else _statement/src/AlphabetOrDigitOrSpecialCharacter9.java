@@ -2,7 +2,7 @@
  and check whether it is alphabet, digit or special
 character.*/
 import java.util.Scanner;
-public class AlphabetOrDigitOrSpecialCharacter {
+public class AlphabetOrDigitOrSpecialCharacter9 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter any character : ");

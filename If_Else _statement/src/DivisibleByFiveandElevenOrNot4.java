@@ -1,7 +1,7 @@
 //3. Write a JAVA program to check whether a
 // number is negative, positive or zero
 import java.util.Scanner;
-public class DivisibleByFiveandElevenOrNot {
+public class DivisibleByFiveandElevenOrNot4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter any Number : ");

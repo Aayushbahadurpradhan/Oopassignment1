@@ -1,7 +1,7 @@
 /*15. Write a JAVA program to input all sides of a
 triangle and check whether triangle is valid or not*/
 import java.util.Scanner;
-public class SidesofTriangeValidOrNot {
+public class SidesofTriangeValidOrNot15 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter first angle");

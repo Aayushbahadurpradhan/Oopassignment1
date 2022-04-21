@@ -2,7 +2,7 @@
 // roots of a quadratic equation.
 import java.util.Scanner;
 
-public class QuadricEquationtoFindRoots {
+public class   QuadricEquationtoFindRoots17 {
     public static void main(String[] args) {
         double FirstRoot=0, SecondRoot=0;
         Scanner scanner= new Scanner(System.in);
@@ -17,6 +17,7 @@ public class QuadricEquationtoFindRoots {
 
         double determinant = (b*b)-(4*a*c);
         double sqrt = Math.sqrt(determinant);
+        System.out.println(determinant );
 
         if(determinant>0){
             FirstRoot = (-b + sqrt)/(2*a);

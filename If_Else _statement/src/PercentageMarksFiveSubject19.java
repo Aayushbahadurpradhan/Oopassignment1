@@ -8,7 +8,7 @@ Percentage >= 40% : Grade E
 Percentage < 40% : Grade F*/
 import java.util.Scanner;
 
-public class PercentageMarksFiveSubject {
+public class PercentageMarksFiveSubject19 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter marks of Physics");

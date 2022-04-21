@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class WeeknumToPrintWeeday {
+public class WeeknumToPrintWeeday11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter weekday day number (1-7) : ");

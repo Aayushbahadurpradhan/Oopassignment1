@@ -2,7 +2,7 @@
 of a triangle and check whether triangle is valid or not.
  */
 import java.util.Scanner;
-public class AnglesofTriangeValidOrNot {
+public class AnglesofTriangeValidOrNot14 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter first angle");

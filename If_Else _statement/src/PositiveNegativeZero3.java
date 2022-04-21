@@ -1,6 +1,6 @@
 //3. Write a JAVA program to check whether a number is negative, positive or zero.
 import java.util.Scanner;
-public class PositiveNegativeZero {
+public class PositiveNegativeZero3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number:");

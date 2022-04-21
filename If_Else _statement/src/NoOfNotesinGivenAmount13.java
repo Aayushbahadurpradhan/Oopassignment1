@@ -2,7 +2,7 @@
  */
 import java.util.Scanner;
 
-public class NoOfNotesinGivenAmount {
+public class NoOfNotesinGivenAmount13 {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Enter your amount");
@@ -64,5 +64,19 @@ public class NoOfNotesinGivenAmount {
             System.out.println("5 = "+note5+"\n");
             System.out.println("2 = "+note2+"\n");
             System.out.println("1 = "+note1+"\n");
+        }
+    }
+
+    class Question13{
+        public static void main(String[] args) {
+            Scanner scanner=new Scanner(System.in);
+            int amount = scanner.nextInt();
+            int totalNoofnotes;
+            if (amount%5==0){
+                totalNoofnotes=amount/5;
+                System.out.println(totalNoofnotes);
+            }else {
+                System.out.println("tou must  enter valid figures");
+            }
         }
     }

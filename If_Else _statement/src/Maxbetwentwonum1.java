@@ -1,22 +1,18 @@
-//2. Write a JAVA program to find maximum between three numbers.
+//1. Write a JAVA program to find maximum between two numbers.
 
 import java.util.Scanner;
-public class Maxbetwnthreenum {
+
+public class Maxbetwentwonum1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter first number:");
         int a = scanner.nextInt();
         System.out.println("Enter second number:");
         int b = scanner.nextInt();
-        System.out.println("Enter third number:");
-        int c = scanner.nextInt();
-        if (a>b && a>c){
+        if (a>b){
             System.out.println("a is maximum");
-        }else if(b>a && b>c){
+        }else{
             System.out.println("b is maximum");
-        }
-        else{
-            System.out.println("c is maximum");
         }
     }
 }
