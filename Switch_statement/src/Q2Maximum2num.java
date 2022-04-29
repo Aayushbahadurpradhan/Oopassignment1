@@ -3,6 +3,7 @@ import java.util.Scanner;
 /*2. JAVA Program to
 find the maximum between two numbers. Using the switch statement*/
 public class Q2Maximum2num {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter first number");
