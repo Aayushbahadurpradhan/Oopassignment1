@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dialogboxforuserio/Dialogboxforuserio.iml" filepath="$PROJECT_DIR$/Dialogboxforuserio/Dialogboxforuserio.iml" />
       <module fileurl="file://$PROJECT_DIR$/ForLooop/ForLooop.iml" filepath="$PROJECT_DIR$/ForLooop/ForLooop.iml" />
       <module fileurl="file://$PROJECT_DIR$/ForLoop/ForLoop.iml" filepath="$PROJECT_DIR$/ForLoop/ForLoop.iml" />
